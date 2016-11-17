@@ -24,14 +24,5 @@ _NOTE:_ to run this stack in the background, run docker-compose with with the de
 docker-compose up -d
 ```
 
-
-_NOTE_ to run in the background, run docker-compose with with the detach flag
-=======
-_NOTE_ to run this stack in the background, run docker-compose with with the detach flag
->>>>>>> ccc1d5fd0d40463265105787b12b14898aefbee1
-```
-docker-compose up -d
-```
-
 ## Dashboard
 In Grafana, get into the Dashboard section, choose `Import` and point to the `grafana-docker-dashboard.json` file to use my base Docker dashboard.
