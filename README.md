@@ -11,7 +11,7 @@ git clone https://github.com/philcryer/monitoring-demo.git
 ```
 * change into project directory
 ```
-cd monitoring-demo.git
+cd monitoring-demo
 ```
 * run it via docker-compose
 ```
