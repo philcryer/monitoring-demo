@@ -1,1 +1,4 @@
 *.db
+./lib/chronograf/*
+./lib/grafana/*
+./lib/influxdb/*
