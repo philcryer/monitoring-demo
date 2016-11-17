@@ -2,7 +2,6 @@ version: '2.0'
 services:
     influxdb:
         image: 'influxdb:alpine'
-        #image: 'influxdb'
         restart: always
         ports:
             - "8083:8083"
@@ -39,13 +38,12 @@ services:
         environment:
             - GF_USERS_ALLOW_SIGN_UP=false
             - GF_USERS_ALLOW_ORG_CREATE=false
-            - GF_SECURITY_ADMIN_USER=user
+            - GF_SECURITY_ADMIN_USER=admin
             - GF_SECURITY_ADMIN_PASSWORD=secret
         links:
             - influxdb
 
     chronograf:
-        #image: 'chronograf:latest'
         image: 'chronograf:latest'
         restart: always
         links:
