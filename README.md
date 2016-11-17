@@ -17,9 +17,9 @@ cd monitoring-demo
 ```
 docker-compose up
 ```
-* watch for errors, if you don't have any, open your browser to [http://127.0.0.1](http://127.0.0.1)
+* watch for errors, if you don't have any, open your browser to [http://127.0.0.1](http://127.0.0.1) and follow the directions.
 
-_NOTE_ to run in the background, run docker-compose with with the detach flag
+_NOTE_ to run this stack in the background, run docker-compose with with the detach flag
 ```
 docker-compose up -d
 ```
