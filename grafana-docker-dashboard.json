@@ -14,7 +14,7 @@
       "height": "250px",
       "panels": [
         {
-          "content": "<div align=\"center\"><img src=\"http://static.techfieldday.com/wp-content/uploads/2016/06/docker-logo-300.png\"></div>\n",
+          "content": "<div align=\"center\"><img src=\"http://127.0.0.1/img/docker-logo-300.png\"></div>\n",
           "editable": true,
           "error": false,
           "id": 2,
